@@ -1,0 +1,450 @@
+  {
+  "action": [
+    {
+      "type": "say",
+      "data": {
+        "text": [
+          "initial text 1",
+          "initial text 2"
+        ]
+      }
+    },
+    {
+      "type": "ask",
+      "data": {
+        "question": "question 0",
+        "answer": [
+          {
+            "text": "home",
+            "value": "home",
+            "tag": [
+              "divorce"
+            ],
+            "action": [
+              {
+                "type": "say",
+                "data": {
+                  "text": [
+                    "so we're talking about {answer_0}, good",
+                    "you said {answer_0}"
+                  ]
+                }
+              },
+              {
+                "type": "ask",
+                "data": {
+                  "question": "following {answer_0}, what is the home answer to question 1",
+                  "answer": [
+                    {
+                      "text": "answer 1a",
+                      "value": "value_1a",
+                      "tag": [
+                        "housing"
+                      ],
+                      "action": [
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 1_1",
+                            "answer": [
+                              {
+                                "text": "answer_1_1a",
+                                "value": "value_1_1a",
+                                "tag": [
+                                  "children"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_1_1b",
+                                "value": "value_1_1b",
+                                "tag": [
+                                  "separation"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "answer 1b",
+                      "value": "value_1b",
+                      "tag": [
+                        "health"
+                      ],
+                      "action": [
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 1_2",
+                            "answer": [
+                              {
+                                "text": "answer_1_2a",
+                                "value": "value_1_2a",
+                                "tag": [
+                                  "solicitor"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_1_2b",
+                                "value": "value_1_2b",
+                                "tag": [
+                                  "home"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "text": "health",
+            "value": "health",
+            "tag": [
+              "tag11",
+              "tag12",
+              "tag15"
+            ],
+            "action": [
+              {
+                "type": "say",
+                "data": {
+                  "text": [
+                    "so we're talking about {answer_0}, good"
+                  ]
+                }
+              },
+              {
+                "type": "ask",
+                "data": {
+                  "question": "following {answer_0}, what is the health answer to question 2",
+                  "answer": [
+                    {
+                      "text": "answer 2a",
+                      "value": "value_2a",
+                      "tag": [
+                        "tag13"
+                      ],
+                      "action": [
+                        {
+                          "type": "say",
+                          "data": {
+                            "text": [
+                              "so we got to question 2 sub 1"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 2_1",
+                            "answer": [
+                              {
+                                "text": "answer_2_1a",
+                                "value": "value_2_1a",
+                                "tag": [
+                                  "tag14"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_2_1b",
+                                "value": "value_2_1b",
+                                "tag": [
+                                  "tag16"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "answer 2b",
+                      "value": "value_2b",
+                      "tag": [
+                        "tag17"
+                      ],
+                      "action": [
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 2_2",
+                            "answer": [
+                              {
+                                "text": "answer_2_2a",
+                                "value": "value_2_2a",
+                                "tag": [
+                                  "tag14"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_2_2b",
+                                "value": "value_2_2b",
+                                "tag": [
+                                  "tag16"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "text": "money",
+            "value": "money",
+            "tag": [
+              "tag21",
+              "tag22",
+              "tag25"
+            ],
+            "action": [
+              {
+                "type": "say",
+                "data": {
+                  "text": [
+                    "so we're talking about {answer_0}, good"
+                  ]
+                }
+              },
+              {
+                "type": "ask",
+                "data": {
+                  "question": "following {answer_0}, what is the money answer to question 3",
+                  "answer": [
+                    {
+                      "text": "answer 3a",
+                      "value": "value_3a",
+                      "tag": [
+                        "tag23"
+                      ],
+                      "action": [
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 3_1",
+                            "answer": [
+                              {
+                                "text": "answer_3_1a",
+                                "value": "value_3_1a",
+                                "tag": [
+                                  "tag24"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_3_1b",
+                                "value": "value_3_1b",
+                                "tag": [
+                                  "tag26"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "text": "answer 3b",
+                      "value": "value_3b",
+                      "tag": [
+                        "tag27"
+                      ],
+                      "action": [
+                        {
+                          "type": "ask",
+                          "data": {
+                            "question": "what is the answer to question 3_2",
+                            "answer": [
+                              {
+                                "text": "answer_3_2a",
+                                "value": "value_3_2a",
+                                "tag": [
+                                  "tag24"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "answer_3_2b",
+                                "value": "value_3_2b",
+                                "tag": [
+                                  "tag26"
+                                ],
+                                "action": [
+                                  {
+                                    "type": "search",
+                                    "data": {}
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "text": "fast search",
+            "value": "family",
+            "tag": [
+              "family"
+            ],
+            "action": [
+              {
+                "type": "say",
+                "data": {
+                  "text": [
+                    "So we are talking about {answer_0} and going to search."
+                  ]
+                }
+              },
+              {
+                "type": "search",
+                "data": {}
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "reset": [
+    {
+      "type": "ask",
+      "data": {
+        "question": "Are the results helpful?",
+        "answer": [
+          {
+            "text": "Yes, very helpful",
+            "value": "helpful+10"
+          },
+          {
+            "text": "Yes, somewhat helpful",
+            "value": "helpful+5"
+          },
+          {
+            "text": "No, not helpful",
+            "value": "helpful-5"
+          },
+          {
+            "text": "No, totaly useless",
+            "value": "helpful-10"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ask",
+      "data": {
+        "question": "Would you like further help?",
+        "answer": [
+          {
+            "text": "Yes",
+            "value": "help"
+          },
+          {
+            "text": "No",
+            "value": "end"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "say",
+      "data": {
+        "text": [
+          "ok, here's what I can help with",
+          "I'm happy to help."
+        ]
+      }
+    },
+
+    {
+      "type": "reset",
+      "data": {}
+    }
+  ],
+    "fallback": [
+    "Sorry I don't understand.",
+    "You lost me, try again.",
+    "What?"
+    ]
+  }
